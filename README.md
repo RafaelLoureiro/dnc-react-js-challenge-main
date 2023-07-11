@@ -36,7 +36,7 @@ $ npm run server
 # abra outro terminal e rode o projeto
 $ npm run dev
 ```
-- Acesse a aplicação:-> https://64aca764e293c4136de27227--merry-moonbeam-37f9e5.netlify.app/)https://64aca764e293c4136de27227--merry-moonbeam-37f9e5.netlify.app/
+Acesse a Aplicação: -> https://merry-moonbeam-37f9e5.netlify.app/
 
 <hr>
 
