@@ -1,0 +1,156 @@
+@use "../../sass/variables" as *;
+
+.header {
+    height: 74px;
+    width: 100%;
+    background-color: $header-background;
+    padding-top: 29px;
+
+    //padding-bottom: 9px;
+    &__Menu {
+        display: flex;
+        text-align: end;
+        justify-content: baseline;
+        gap: 25px;
+        margin-left: 61px;
+
+        color: $white;
+        font-size: 25px;
+        font-family: Poppins;
+        font-weight: 600;
+    }
+
+    &__Tarefas {
+        border-radius: 10px 10px 0px 0px;
+        background: $white;
+        color: $header-background;
+        text-align: center;
+        width: 174px;
+        height: 44px;
+    }
+}
+
+body {
+    background-color: $body;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    text-align: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.table-list-up {
+    width: 80%;
+    display: row;
+    flex-direction: column;
+    align-items: center;
+    color: $white;
+    font-family: 'Poppins';
+    margin-top: 80px;
+    border: $white 1px solid;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    th {
+        border-bottom: 1px solid;
+    }
+
+    td {
+        text-align: center;
+        padding: 50px;
+    }
+
+    .table-list {
+
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        color: $white;
+        font-family: 'Poppins';
+        margin-top: 20px;
+        border: none;
+
+        tr {
+            text-align: center;
+        }
+
+        button {
+            text-align: right;
+            background-color: $body;
+            border: none;
+            color: $white;
+            cursor: pointer;
+        }
+    }
+}
+
+.box-Modal-1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $white;
+    width: 758px;
+    height: 436px;
+    height: 436px;
+    border-radius: 10px;
+    margin-top: 50px;
+    z-index: 10;
+
+    p {
+        text-align: center;
+        padding: 70px;
+        font-family: Raleway;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    h2 {
+        padding-top: 35px;
+        text-align: center;
+        color: $black;
+        font-family: Raleway;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    button {
+        
+        width: 268px;
+        height: 77px;
+        flex-shrink: 0;
+        color: $body;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 10px;
+        background-color: $white;
+        font-family: Raleway;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    button:hover {
+        background-color: $header-background;
+        color: $white;
+        border: none;
+    }
+}
+.modal-footer{
+ text-align: center;
+}
