@@ -22,7 +22,7 @@ Aplicação desenvolvida para listar e visualizar tarefas, com o objetivo de col
 
 ```
 # clone esse repositório
-$ git clone https://github.com/felipejsborges/<repo_name>.git
+$ git clone https://github.com/RafaelLoureiro/dnc-react-js-challenge-main.git
 
 # acesse a pasta do projeto
 $ cd <repo_name>
