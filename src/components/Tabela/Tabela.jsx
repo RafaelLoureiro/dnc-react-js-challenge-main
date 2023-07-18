@@ -4,7 +4,7 @@ import deleteItem from "../../assets/ic_round-delete.svg";
 import editeItem from "../../assets/material-symbols_edit.svg";
 import { Modal } from 'react-bootstrap';
 
-const Tarefas = () => {
+const Tabella = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [isModalExclusaoVisivel, setIsModalExclusaoVisivel] = useState(false);
   const [tarefaEditando, setTarefaEditando] = useState(null);
@@ -194,7 +194,7 @@ const Tarefas = () => {
                 <td>
                   {tarefaEditando === tarefa ? (
                     <>
-                      <button className='bt-Sim' onClick={handleFormSubmit}>Salvar</button>
+                      <button id='saveEdit' className='bt-Sim' onClick={handleFormSubmit}>Salvar</button>
                     </>
                   ) : (
                     <>
@@ -218,7 +218,7 @@ const Tarefas = () => {
                     onChange={handleNovaTarefaDescricaoChange}
                   />
                 </td>
-            
+
                 <td>
                   <button onClick={handleAdicionarTarefa}>+</button>
                 </td>
@@ -227,7 +227,7 @@ const Tarefas = () => {
               <tr>
                 <td colSpan="3" className="adicionar-tarefa">
                   <td>Adicionar nova tarefa...</td>
-          
+
                   <td>
                     <button onClick={handleExibirInputNovaTarefa}>
                       +
@@ -247,4 +247,4 @@ const Tarefas = () => {
 
 
 
-export default Tarefas;
+export default Tabella;

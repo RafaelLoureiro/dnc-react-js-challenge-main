@@ -1,1 +1,77 @@
 @use "../../sass/variables" as *;
+
+.box-Modal-1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $white;
+    border-radius: 10px;
+    margin-top: 50px;
+    z-index: 10;
+
+    p {
+        text-align: center;
+        padding: 70px;
+        font-family: Raleway;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    h2 {
+        padding-top: 35px;
+        text-align: center;
+        color: $black;
+        font-family: Raleway;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    button {
+
+        width: 268px;
+        height: 77px;
+        flex-shrink: 0;
+        color: $body;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 10px;
+        background-color: $white;
+        font-family: Raleway;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    button:hover {
+        background-color: $header-background;
+        color: $white;
+        border: none;
+    }
+}
+
+.modal-footer {
+    text-align: center;
+}
+
+#saveEdit {
+    font-family: Raleway;
+    text-align: center;
+    width: 50px;
+    height: 20px;
+    color: $white;
+    border: $white 1px solid;
+}
+
+#saveEdit:hover {
+
+    background-color: $header-background;
+}

@@ -5,6 +5,14 @@ Aplicação desenvolvida para listar e visualizar tarefas, com o objetivo de col
 
 <hr>
 
+<h4>Correções e Mudanças 👾</h4>
+
+- Organizado Sass
+- Editado configurações para melhorar experiência com o usuário
+- Adicionado destaque ao botão savar no modo edição de tarefas
+- Ajustado a responsividade da tabela para dispositivos menores
+- Ajustado nomenclatura do componente Tabela
+
 <h4>Tecnologias 🚀</h4>
 
 - Javascript
