@@ -29,6 +29,7 @@ $ cd <repo_name>
 
 # instale as dependências
 $ npm install
+$npm install @vitejs/plugin-react
 
 # rode o server
 $ npm run server
